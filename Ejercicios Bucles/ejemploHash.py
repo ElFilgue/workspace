@@ -1,0 +1,2 @@
+import hashlib
+salida= hashlib.
