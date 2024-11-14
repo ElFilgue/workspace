@@ -59,4 +59,6 @@ while True:
             else:
                 print('No está este usuario')
         case '5':
+            
+        case '6':
             break

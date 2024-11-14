@@ -1,2 +1,3 @@
 import hashlib
-salida= hashlib.
+# Contraseña original
+contraseña_original = "Adivinanza"
