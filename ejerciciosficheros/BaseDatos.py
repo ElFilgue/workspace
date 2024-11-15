@@ -25,7 +25,7 @@ usuarios={
 # Dependiendo de lo que conteste el usuario se hará lo que dice esa opción.
 
 while True:
-    elige_opcion = input("1 - listar usuarios, 2 - añadir un usuario, 3 - borrar un usuario, 4 - buscar un usuario, 5 - salir: ")
+    elige_opcion = input("1 - listar usuarios, 2 - añadir un usuario, 3 - borrar un usuario, 4 - buscar un usuario, 5 - guardar un usuario, 6 - salir: ")
     match elige_opcion:
         case '1':
             print('Listado de todos los usuarios')
@@ -59,6 +59,10 @@ while True:
             else:
                 print('No está este usuario')
         case '5':
-            
+            with open('ficheros/usuarios.dat', 'w') as f:
+                for clave, valor in usuarios.items():
+                    f.write(clave+'\n')
+                    f.write(str(valor)+'\n')
         case '6':
             break
+                            
