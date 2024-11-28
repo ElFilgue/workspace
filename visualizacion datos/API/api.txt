@@ -1,0 +1,6 @@
+Una API permitira que nuestra aplicación se conecte con otras para recibir informacion
+Una API es tambien una interfaz que nos permitira a otras aplicaciones de otros lugares a conecterse a nuestra aplicación para recibir datos
+Las API pueden ser de varios tipos:
+1. REST (Representational State Tranfer): los datos se pueden guardar en el caché y podemos permitir los permisos par acceder a los datos de nuestra aplicación. Es la arquitectura mas usada
+Las APIS pueden ser publicas o privadas.
+Las APIs pueden ser tambien: LOCALES Y REMOTAS
