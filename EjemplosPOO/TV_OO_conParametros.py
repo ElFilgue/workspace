@@ -81,14 +81,14 @@ TVsalon.encender()
 TVcocina.encender()
 
 # En la TV del salón sube el canal, sube el volumen 3 veces
-TVsalon.subirCanal()
+TVsalon.bajarCanal()
 TVsalon.subirVolumen()
 TVsalon.subirVolumen()
 TVsalon.subirVolumen()
 
 # En la TV de la cocina pon el canal 44, silenciala
-TVcocina.ponCanal(44)
-TVcocina.silenciar()
+TVcocina.ponCanal(100)
+TVcocina.encender()
 
 # Muestra el estado de las dos TV
 TVsalon.muestraInformacion()
